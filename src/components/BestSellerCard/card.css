@@ -1,0 +1,77 @@
+
+.card-best-seller{
+    height: max-content;
+    width: 22%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    }
+    .trend-no{
+        height: 25px;
+        background-color: #c45500;
+        float: left !important;
+        margin-bottom: 22px;
+        display: flex;
+        width: 15%;
+    }
+    .trend-no p{
+        color: #fff;
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 8px;
+    }
+    /* .arrow{
+        border-right: 14px solid transparent;
+        border-top: 26px solid;
+        height: 0;
+        width: 0;
+        color: #c45500;
+        float: left !important
+    } */
+    .card-best-seller-img{
+        height:20vh ;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .card-best-seller-img img{
+        height: 100%;
+        width: auto;
+    }
+    .best-seller-catogery{
+        height: max-content;
+        width: 100%;
+    
+    
+    }
+    .best-seller-catogery:hover{
+        color: rgb(97, 159, 159);
+        text-decoration: underline;
+    }
+    .best-seller-rating{
+        height: max-content;
+        width: 100%;
+    
+    }
+    .best-seller-price{
+        height: max-content;
+        width: 100%;
+    
+    }
+    .all-bestseller-card{
+        height: max-content;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .pagination{
+        float: right;
+        height: max-content;
+     
+    display: flex;
+     justify-content: right;
+    gap: 10px;  
+    }

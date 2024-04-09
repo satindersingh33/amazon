@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.parent_sec_nav {
+    max-height: 39px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    justify-content: space-evenly;
+}
+
+.parent_sec_nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.all_overlay button {
+    margin: 5px;
+    border: none;
+    background-color: #232f3e;
+    color: white;
+}
+
+.all_overlay span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fa_bars {
+    width: 23px;
+    height: 19px;
+    background-position: -172px -255px;
+}
+.btn-primary:hover{background-color:transparent;}
+
+.side-bar{
+    width:100%;
+    background-color: #232f3e;
+    color: white;
+}
+
+.b:hover {
+    border: 1px solid white;
+}

@@ -1,0 +1,9 @@
+.ul-f-bestseller ul li{
+    transition: all 0.5s;
+    list-style-type: none;
+    font-size: 14px;
+}
+.ul-f-bestseller  li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

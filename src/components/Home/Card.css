@@ -1,0 +1,53 @@
+body{
+    background-color: #e3e6e6;
+  }
+.outer_card{
+    height: 55vh;
+    width: 23%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    background-color:   #e3e6e6;
+}
+.heading_card{
+    height: 15%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.inner_card{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.col_first , .col_sec ,.col_third , .col_fourth{
+    height: 40%;
+    width: 45%;
+
+}
+.col_first img , .col_sec img ,.col_third img , .col_fourth img{
+    height: 80%;
+    width: 100%;
+}
+.all_cards{
+
+
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+   
+    margin-top: -14%;
+    gap: 20px;
+    background-color: white ;
+}

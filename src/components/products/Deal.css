@@ -1,0 +1,65 @@
+.all-deal-card{
+    height: max-content;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+}
+  
+  .new_outer_card {
+    height: 55vh;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .new_heading_card {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .new_inner_card {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .new_col_first, .new_col_sec, .new_col_third, .new_col_fourth {
+    height: 40%;
+    width: 45%;
+  }
+  .new_col_first  p, .new_col_sec p, .new_col_third p, .new_col_fourth p{
+    font-size: 12px;
+  }
+  
+  .new_col_first img, .new_col_sec img, .new_col_third img, .new_col_fourth img {
+    height: 80%;
+    width: auto;
+  }
+  .offer{
+    color: rgb(27, 186, 186);
+    position: absolute;
+    bottom: 0;
+  }
+  .offer:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .new_inner_card img {
+    height: 80%;
+    width: auto;
+  }
